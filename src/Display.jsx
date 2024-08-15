@@ -1,3 +1,5 @@
-export default function Display() {
-  return <div>Display</div>;
+import styles from "./Display.module.css";
+
+export default function Display({ count }) {
+  return <div className={styles.display}>{count}</div>;
 }

@@ -1,11 +1,10 @@
-import Display from "./Display";
+import styles from "./App.module.css";
+import Counter from "./Counter";
 
 function App() {
   return (
-    <div>
-      <h2>React Counter App</h2>
-
-      <Display />
+    <div className={styles.app}>
+      <Counter />
     </div>
   );
 }
